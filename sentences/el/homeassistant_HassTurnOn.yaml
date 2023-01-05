@@ -2,4 +2,6 @@ language: el
 intents:
   HassTurnOn:
     data:
-    - sentences: []
+    - sentences:
+        - "(άναψε | διακόπτη) on <name>"
+        - "(άναψε | διακόπτη | αλλαξε) <name> [σε] on"
